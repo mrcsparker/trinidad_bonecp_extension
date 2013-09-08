@@ -1,0 +1,2 @@
+require 'trinidad_bonecp'
+require 'trinidad_generic_bonecp_extension/generic_webapp_extension'
