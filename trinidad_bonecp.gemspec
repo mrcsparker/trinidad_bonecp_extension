@@ -9,6 +9,7 @@ Gem::Specification.new do |gem|
   gem.homepage = 'http://github.com/mrcsparker/trinidad_bonecp_extension'
   gem.authors = ['Chris Parker']
   gem.email = 'mrcsparker@gmail.com'
+  gem.license = 'MIT'
 
   gem.files =  ['lib/trinidad_bonecp.rb'] +
   `git ls-files lib/trinidad_bonecp/*.rb`.split("\n") +
