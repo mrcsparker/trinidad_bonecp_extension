@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |gem|
   gem.name = 'trinidad_bonecp'
-  gem.version = '0.1.0'
+  gem.version = '1.0.0'
 
   gem.summary = 'Addon to support bonecp database pools in Trinidad'
   gem.description = 'Addon to support bonecp database pools in Trinidad'

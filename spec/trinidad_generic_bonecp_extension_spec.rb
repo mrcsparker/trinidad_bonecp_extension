@@ -32,7 +32,7 @@ describe Trinidad::Extensions::GenericBonecpWebAppExtension do
   end
 
   it 'resolves driver name from jar path with multiple paths' do
-    extension = build_extension @defaults.merge :driver_path => 'trinidad-libs/guava-14.0.1.jar:trinidad-libs/bonecp-0.7.1.RELEASE.jar:spec/dummy-driver.jar'
+    extension = build_extension @defaults.merge :driver_path => 'trinidad-libs/guava-15.0.jar:trinidad-libs/bonecp-0.8.0.RELEASE.jar:spec/dummy-driver.jar'
     extension.configure(@tomcat, @context)
     extension.driver_name.should == 'org.trinidad.jdbc.DummyDriver'
   end
